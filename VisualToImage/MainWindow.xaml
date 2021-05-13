@@ -5,55 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VisualToImage"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="800" Loaded="Window_Loaded" WindowState="Maximized">
+        Title="MainWindow" Height="800" Width="800" Loaded="Window_Loaded">
     <Grid>
-        <Border x:Name="ssss" CornerRadius="100" Width="693" Height="800">
-            <Border.Background>
-                <DrawingBrush>
-                    <DrawingBrush.Drawing>
-                        <DrawingGroup>
-                            <GeometryDrawing Geometry="M86.6,0 L173.2,50 173.2,50 173.2,150 86.6,200 86.6,200 0,150 0,50 z" Brush="#283142"/>
+        <Border x:Name="ssss" CornerRadius="100" Background="#545FC0" Padding="120">
+            <Border>
+                <Border.Background>
+                    <DrawingBrush>
+                        <DrawingBrush.Drawing>
                             <DrawingGroup>
-                                <DrawingGroup.Transform>
-                                    <TransformGroup>
-                                        <TranslateTransform X="2" Y="1"/>
-                                    </TransformGroup>
-                                </DrawingGroup.Transform>
-                                <GeometryDrawing Geometry="M6,56 L40.3,76.5 40.3,117.5 6,97 z" Brush="OrangeRed"/>
-                                <GeometryDrawing Geometry="M6,103 L40.3,123.5 40.3,164.5 6,144 z" Brush="#1E62A1"/>
-                                <GeometryDrawing Geometry="M46.3,79 L80.6,99.5 80.6,140.5 46.3,120 z" Brush="#E5F1F9"/>
-                                <GeometryDrawing Geometry="M46.3,126 L80.6,146.5 80.6,187.5 46.3,167 z" Brush="#FFDBA0"/>
-                            </DrawingGroup>
+                                <GeometryDrawing Brush="#5D9CEC"
+                                                 Geometry="M860.652638 1011.484049c-16.687935 16.687935-43.687829 16.687935-60.375764 0L12.467951 223.675126c-16.623935-16.687935-16.623935-43.687829 0-60.311764L163.343362 12.487951c16.687935-16.655935 43.687829-16.655935 60.375764 0L1011.528049 800.296874c16.623935 16.655935 16.623935 43.687829 0 60.311764l-150.875411 150.875411z"/>
 
-                            <DrawingGroup>
-                                <DrawingGroup.Transform>
-                                    <TransformGroup>
-                                        <ScaleTransform ScaleX="-1"/>
-                                        <TranslateTransform X="172" Y="1"/>
-                                    </TransformGroup>
-                                </DrawingGroup.Transform>
-                                <GeometryDrawing Geometry="M6,56 L40.3,76.5 40.3,117.5 6,97 z" Brush="#FFDBA0"/>
-                                <GeometryDrawing Geometry="M6,103 L40.3,123.5 40.3,164.5 6,144 z" Brush="#1E62A1"/>
-                                <GeometryDrawing Geometry="M46.3,79 L80.6,99.5 80.6,140.5 46.3,120 z" Brush="#E5F1F9"/>
-                                <GeometryDrawing Geometry="M46.3,126 L80.6,146.5 80.6,187.5 46.3,167 z" Brush="OrangeRed"/>
-                            </DrawingGroup>
+                                <GeometryDrawing Brush="#4A89DC"
+                                                 Geometry="M916.59042 946.766302L72.843715 102.987598l30.187883-30.155882 843.746704 843.778703z"/>
 
-                            <DrawingGroup>
-                                <DrawingGroup.Transform>
-                                    <TransformGroup>
-                                        <RotateTransform Angle="-60"/>
-                                        <TranslateTransform X="-40.5" Y="28"/>
-                                    </TransformGroup>
-                                </DrawingGroup.Transform>
-                                <GeometryDrawing Geometry="M6,56 L40.3,76.5 40.3,117.5 6,97 z" Brush="#FFDBA0"/>
-                                <GeometryDrawing Geometry="M6,103 L40.3,123.5 40.3,164.5 6,144 z" Brush="#1E62A1"/>
-                                <GeometryDrawing Geometry="M46.3,79 L80.6,99.5 80.6,140.5 46.3,120 z" Brush="#E5F1F9"/>
-                                <GeometryDrawing Geometry="M46.3,126 L80.6,146.5 80.6,187.5 46.3,167 z" Brush="OrangeRed"/>
+                                <GeometryDrawing Brush="#E6E9ED"
+                                                 Geometry="M729.403151 276.862919c66.68774 66.68774 174.749317 66.68774 241.375057 0L729.465151 35.519861c-66.68574 66.65574-66.68574 174.717318-0.062 241.343058z"/>
+
+                                <GeometryDrawing Brush="#CCD1D9"
+                                                 Geometry="M819.964797 367.392565l-181.061293-181.031293c-16.623935-16.655935-43.687829-16.655935-60.311764 0L216.531154 548.391858c-66.62374 66.65574-66.62374 174.717318 0 241.375057 66.68774 66.65574 174.687318 66.65574 241.375057 0l362.060586-362.030586c16.623935-16.687935 16.623935-43.687829-0.002-60.343764z"/>
+
+                                <GeometryDrawing Brush="#AAB2BD"
+                                                 Geometry="M925.528385 80.799684c-8.311968-8.375967-21.811915-8.375967-30.187882 0l-60.311765 60.311765 30.123882 30.155882 60.375765-60.343764c8.311968-8.309968 8.311968-21.809915 0-30.123883z"/>
                             </DrawingGroup>
-                        </DrawingGroup>
-                    </DrawingBrush.Drawing>
-                </DrawingBrush>
-            </Border.Background>
+                        </DrawingBrush.Drawing>
+                    </DrawingBrush>
+                </Border.Background>
+            </Border>
         </Border>
     </Grid>
 </Window>
